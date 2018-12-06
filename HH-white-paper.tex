@@ -1,0 +1,182 @@
+
+%
+%\documentclass[runningheads]{llncs}
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%
+\usepackage{graphicx}
+\usepackage{import}
+
+
+\addbibresource{Bibliography.bib}
+
+\begin{document}
+%
+\title{Double Higgs Pair production at colliders, status and perspectives}
+%
+%
+\author{{Editors: Biagio Di Micco$^1$$^2$, Maxime Gouzevitch$^3$, Javier Mazzitelli$^4$\\ and Caterina Vernieri$^5$}\\\\
+%
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{$^1$ Universit\`a degli Studi di Roma Tre \and $^2$ Sezione INFN \\ 
+\and $^3$ Institut de Physique Nucléaire de Lyon \\
+\and $^4$ University of Zurich \\
+\and $^5$ SLAC National Accelerator Laboratory}\\\\
+\email{biagio.di.micco@cern.ch, maxime.gouzevitch@cern.ch \\ jmazzi@physik.uzh.ch, caterina@slac.stanford.edu }}
+\tableofcontents
+%
+\maketitle              % typeset the header of the contribution
+%
+%\begin{abstract}
+%\end{abstract}
+\keywords{}
+\chapter{Theoretical status}
+\section{HH cross section predictions}
+\begin{itemize}
+\item NLO with full $m_t$
+\item NNLO$_\text{FTapprox}$, full $m_t$ at NLO}
+\item differential cross sections
+\end{itemize}
+\subsection{Cross section as a function of $\kappa_{\lambda}$}
+\subsection{Differential predictions and MC generators}
+\begin{itemize}
+\item aMC@NLO
+\item Powheg
+\item Pythia8 versus Herwig7
+\end{itemize}
+
+\section{Effective Field Theory}
+\subsection{Assumptions in EFT theory}
+
+\subsection{$m_{hh}$ cut inside validity range of EFT}
+\subsection{EFT shape benchmarks}
+\subsection{EFT vs. complete models}
+\begin{itemize}
+\item theoretical constraints on $\kappa_\lambda$
+\item classes of models that can be probed by particular operators or operator sets
+\item chromomagnetic operator
+\end{itemize}
+\subsection{H and HH combination for EFT fit} 
+\begin{itemize}
+\item Single H measurements for ($\kappa_{\lambda}$, $\kappa_t$) scan
+\item Global fit
+\end{itemize}
+\subsection{QCD corrections for EFTs}
+\begin{itemize}
+             \item NLO K-factors in the non-linear EFT framework
+\end{itemize}
+
+
+\section{BSM resonant production}
+\subsection{Validity of the narrow width approximation}
+\subsection{spin-0 models}
+\begin{itemize}
+    \item Benchmark discussion
+\end{itemize}
+\subsection{spin-2 models}
+\begin{itemize}
+    \item Overlap with VV resonance searches
+    \item Benchmark discussion
+\end{itemize}
+\subsection{Sh and SS model benchmarks}
+\begin{itemize}
+    \item motivations
+    \item benchmarks
+\end{itemize}
+\subsection{hh simplified models}
+\begin{itemize}
+\item Model description
+\item Interference with background
+\item Complete models pMSSM, hMSSM, higgsino
+\end{itemize}
+
+\chapter{Experimental status}
+\section{Overview of the HH final states and combination}  
+\section{Analysis techniques overview}
+\subsection{Review of the trigger strategies}
+\subsection{Review of object reconstruction performance}
+\begin{itemize}
+\item jet reconstruction  
+\item jet regression 
+\item b-tagging 
+\item $\tau$ reconstruction
+\item photon reconstruction
+
+\end{itemize}
+\subsection{Review of HH specific analysis techniques}
+\begin{itemize}
+\item kinematic fit
+\item H$(b\bar{b})$ tagging
+\end{itemize}
+\section{$HH \to 4b$ status and perspectives}
+\begin{itemize}
+\item Challenges
+\item Analysis strategy overview (background estimation)
+\item Limitations of the current result and perspectives
+\end{itemize}
+\section{$HH \to bb\gamma\gamma$ status and perspectives}
+\begin{itemize}
+\item Challenges
+\item Analysis strategy overview (background estimation)
+\item Limitations of the current result and perspectives
+\end{itemize}
+\section{$HH \to bb\tau\tau$ status and perspectives}
+\begin{itemize}
+\item Challenges
+\item Analysis strategy overview (background estimation)
+\item Limitations of the current result and perspectives
+\end{itemize}
+\section{$HH \to bbWW$ status and perspectives}
+\begin{itemize}
+\item Challenges
+\item Analysis strategy overview (background estimation)
+\item Limitations of the current result and perspectives
+\end{itemize}
+\section{HH, other signatures: status and perspectives}
+\begin{itemize}
+\item Challenges
+\item Analysis strategy overview (background estimation)
+\item Limitations of the current result and perspectives
+\end{itemize}
+
+\section{VBF HH production: status and perspectives}
+\section{HH combination: perspectives}
+\import{./}{Exp-combination.tex}
+\chapter{Result presentation}
+\begin{itemize}
+    \item Publishing the full likelihood 
+    \item Interpolation
+    \item Mass vs. Width scans
+    \item How to make information public for ML-based analysis 
+   
+\end{itemize}
+\chapter{HH at future colliders}
+\section{Projections for HL-LHC}
+\subsection{Challenges ahead: trigger}
+\section{HH at linear colliders}
+\section{HH at circular colliders}
+
+
+
+
+
+
+
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+%\bibliographystyle{splncs04}
+\bibliographystyle{unsrt}
+\bibliography{Bibliography}
+
+
+%\bibliography{Bibliography}
+%
+
+\end{document}
